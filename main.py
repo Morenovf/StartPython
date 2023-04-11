@@ -2,7 +2,7 @@ import os
 #from Varios import principal
 
 import Ejercicio1DNI
-import Ejercicio2Salarios
+import Ejercicio2Salario
 import Ejercicio3vuelos
 import Ejercicio4Radio
 import Ejercicio5MayorMenor
@@ -24,19 +24,32 @@ import Ejercicio20capicua
 
 while True:
     os.system("cls") #Limpia la pantalla en la consola
+
     print("Bienvenidos")
     print("Menu principal")
-    print("1-Calcular DNI")
+
+    print("1-Calcular letra DNI español")
     print("2-Calcular Salario Neto Español")
     print("3-Determinar ruta para llegar por avion")
-    print("4-Calcular radio del círculo")
-    (...)
-
-    print("8-Año bisiesto")
-    print("10-Ordenar una cadena")
+    print("4-Calcular çarea y perímetro de un círculo dado su radio")
+    print("5-Calcular numero mayor y menor")
+    print("6-Convertir grados Celsius a Fahrenheit")
+    print("7-Determinar numero par o impar")
+    print("8-Determinar si un año es bisiesto")
+    print("9-Determinar si una cadena de texto es un palíndromo")
+    print("10-Ordenar lista de nombres")
+    print("11-Calcular Salario Neto Español")
+    print("12-Determinar si un número es primo")
+    print("13-Calcular área y volumen de un cubo dado su lado")
+    print("14-Calcular suma de todos los numeros pares de una lista")
+    print("15-Determinar si un número es positivo, negativo o cero")
+    print("16-Calcular la media de a lista")
+    print("17-Generar numero aleatorio entre 1 y 100 y pedir al usuario adivinarlo.")
+    print("18-Determinar si cadena de texto es anagrama de otra cadena")
+    print("19-Eliminar numeros duplicados de una lista")
     print("20-Determinar números capicuas")
 
-    print("0 -Salir")
+    print("0-Salir")
 
     opcion = input("Seleccione una opción:")
 
