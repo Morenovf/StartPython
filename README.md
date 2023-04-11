@@ -2,14 +2,13 @@
 
 ## Punto 1
 
-Nombre repositorio: StartPython
+**Nombre repositorio**: StartPython
 
-Propietario: Fabrizio Moreno 
+**Propietario**: Fabrizio Moreno 
 
-Invitados: Daniel Romero y Jon Echeguren
+**Invitados**: Daniel Romero y Jon Echeguren
 
 1. Creación del programa principal
-2. 
 3. Creación de un Readme.md
 
 ## Punto 2
