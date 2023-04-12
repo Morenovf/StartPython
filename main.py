@@ -23,8 +23,9 @@ from Ejercicios import Ejercicio19sinduplicados
 from Ejercicios import Ejercicio20capicua
 
 while True:
-    os.system("cls") #Limpia la pantalla en la consola
-    os.system("clear") #Limpia pantalla consola MAC y Linux
+    os.system('cls' if os.name=='nt' else 'clear')
+    # os.system("cls") #Limpia la pantalla en la consola
+    # os.system("clear") #Limpia pantalla consola MAC y Linux
     
     print("Bienvenidos")
     print("Menu principal")
