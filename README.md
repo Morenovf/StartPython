@@ -1,5 +1,34 @@
 # StartPython - EOI Desarrollo Cloud
 
+## ¿Quienes colaboran en este repositorio?
+
+- Jon Pinies
+- Daniel Romero
+- Miguel Benítez
+- Fabrizio Moreno 
+
+## ¿Cuáles son las configuraciones locales requeridas?
+
+1. **Clonar el repositorio**
+
+```git clone https://github.com/Morenovf/StartPython.git```
+
+2. **Comprobar que la versión de Python instalada coincida con la del proyecto:**
+
+Este proyecto usa la versión **Python 3.11.0**.
+
+3. **Crear y activar el entorno virtual**
+
+Desde Visual Studio Code, presionamos Ctrl+S+P para abrir la paleta, donde escribimos ```Python: Create Environment``` para crear un entorno virtual ".venv" con la versión **3.11.0**
+
+4. **Instalar las librerias**
+
+Ejecutar el comando ```pip install -r requirements.txt```
+
+5. **Ejecución del programa**
+
+Ejecutar el comando ```py main.py```
+
 ## ¿Qué contiene este repositorio?
 
 Este repositorio contiene un programa que permite ejecutar cada uno de los 20 ejercicios propuestos en lenguaje de programación Python.
@@ -28,10 +57,3 @@ Los ejercicios corresponden con las siguientes cuestiones:
 19. Dada una lista de números enteros, crea un programa en Python que elimine los números duplicados de la lista.
 20. Crea un programa en Python que determine si un número es capicúa o no.
 ```
-
-## ¿Quienes colaboran en el repositorio?
-
-- Jon Pinies
-- Daniel Romero
-- Miguel Benítez
-- Fabrizio Moreno 
