@@ -2,21 +2,42 @@
 def principal():
     import random
     x = 0
+    y = 0
     nalea = random.randint(1,100)
-    print("Inroduce un nuevo número entero entre el 1 y el 100")
-    numero = input()
-    numero = int(numero)
+    while y == 0:
+        print("Inroduce un nuevo número entero entre el 1 y el 100")
+        numero = input()
+        try:
+            numero = int(numero)
+            y = 1
+        except:
+            print("Entrada inválida.")
+            continue
     while x == 0:
         if numero > nalea:
             print("El número introducido es mayor")
-            print("Inroduce un nuevo número entero entre el 1 y el 100")
-            numero = input()
-            numero = int(numero)
+            y = 0
+            while y == 0:
+                print("Inroduce un nuevo número entero entre el 1 y el 100")
+                numero = input()
+                try:
+                    numero = int(numero)
+                    y = 1
+                except:
+                    print("Entrada inválida.")
+                    continue
         elif numero < nalea:
             print("El número introducido es menor")
-            print("Inroduce un nuevo número entero entre el 1 y el 100")
-            numero = input()
-            numero = int(numero)
+            y = 0
+            while y == 0:
+                print("Inroduce un nuevo número entero entre el 1 y el 100")
+                numero = input()
+                try:
+                    numero = int(numero)
+                    y = 1
+                except:
+                    print("Entrada inválida.")
+                    continue
         else:
             x = 1
             print("¡Felicidades!, Has acertado el número")
