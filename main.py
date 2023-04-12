@@ -24,7 +24,8 @@ from Ejercicios import Ejercicio20capicua
 
 while True:
     os.system("cls") #Limpia la pantalla en la consola
-
+    os.system("clear") #Limpia pantalla consola MAC y Linux
+    
     print("Bienvenidos")
     print("Menu principal")
 
