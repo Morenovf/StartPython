@@ -1,26 +1,26 @@
 import os
 #from Varios import principal
 
-import Ejercicio1DNI
-import Ejercicio2Salario
-import Ejercicio3vuelos
-import Ejercicio4Radio
-import Ejercicio5MayorMenor
-import Ejercicio6Celsius
-import Ejercicio7Par
-import Ejercicio8Bisiesto
-import Ejercicio9Palindroma
-import Ejercicio10Alfabeticamente
-import Ejercicio11algoritmo
-import Ejercicio12primo
-import Ejercicio13cubo
-import Ejercicio14sumapares
-import Ejercicio15posnegcero
-import Ejercicio16media
-import Ejercicio17aleatorio
-import Ejercicio18anagrama
-import Ejercicio19sinduplicados
-import Ejercicio20capicua
+from Ejercicios import Ejercicio1DNI
+from Ejercicios import Ejercicio2Salario
+from Ejercicios import Ejercicio3vuelos
+from Ejercicios import Ejercicio4Radio
+from Ejercicios import Ejercicio5MayorMenor
+from Ejercicios import Ejercicio6Celsius
+from Ejercicios import Ejercicio7Par
+from Ejercicios import Ejercicio8Bisiesto
+from Ejercicios import Ejercicio9Palindroma
+from Ejercicios import Ejercicio10Alfabeticamente
+from Ejercicios import Ejercicio11algoritmo
+from Ejercicios import Ejercicio12primo
+from Ejercicios import Ejercicio13cubo
+from Ejercicios import Ejercicio14sumapares
+from Ejercicios import Ejercicio15posnegcero
+from Ejercicios import Ejercicio16media
+from Ejercicios import Ejercicio17aleatorio
+from Ejercicios import Ejercicio18anagrama
+from Ejercicios import Ejercicio19sinduplicados
+from Ejercicios import Ejercicio20capicua
 
 while True:
     os.system("cls") #Limpia la pantalla en la consola
