@@ -16,8 +16,3 @@ def principal():
                 getInputUser = ""
 
     startProgram(getInputUser)
-<<<<<<< HEAD:ejercicio10Alfabeticamente.py
-    
-    #Cambios
-=======
->>>>>>> cae8088f6189167fc80b2a1118926214a7b2739d:Ejercicio10Alfabeticamente.py
