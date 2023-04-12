@@ -44,3 +44,5 @@ def principal():
             print("El vuelo será directo. Volará de", ciudadOrigen, "a", ciudadDestino,".")
         else:
             print("La ruta seleccionada no existe.")
+            
+            #Cambios

@@ -16,3 +16,5 @@ def principal():
         choose = input("Quieres calcular otro sueldo 'si' o 'no': ")
 
         op = choose.lower()
+        
+        #Cambios

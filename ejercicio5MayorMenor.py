@@ -31,3 +31,5 @@ def principal():
             numeroMenor = arrayNum[i]
 
     print("El menor numero de la lista es:  " + str(numeroMenor))
+    
+    #Cambioss

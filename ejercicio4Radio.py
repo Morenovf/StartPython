@@ -6,3 +6,5 @@ def principal():
     perimetroCirculo = radio * 2 * math.pi
 
     print(f"El area del circulo es {areaCirculo} y el perimetro es {perimetroCirculo}")
+    
+    #Cambios

@@ -21,3 +21,5 @@ def principal():
         print("Tu palabra es palindroma")
     else:
         print("Tu palabra no es palindroma")
+        
+        #Cambioss
