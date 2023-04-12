@@ -57,3 +57,7 @@ Los ejercicios corresponden con las siguientes cuestiones:
 19. Dada una lista de números enteros, crea un programa en Python que elimine los números duplicados de la lista.
 20. Crea un programa en Python que determine si un número es capicúa o no.
 ```
+
+Screenshot del funcionamiento del programa:
+
+![Captura](images/main.png)
