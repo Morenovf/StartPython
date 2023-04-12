@@ -1,4 +1,5 @@
 import os
+import sys
 #from Varios import principal
 
 from Ejercicios import Ejercicio1DNI
@@ -23,7 +24,15 @@ from Ejercicios import Ejercicio19sinduplicados
 from Ejercicios import Ejercicio20capicua
 
 while True:
-    os.system('cls' if os.name=='nt' else 'clear')
+    if sys.platform.startswith("linux"):
+        # linux
+        os.system('clear') 
+    elif sys.platform == "darwin":
+        # MAX OS X
+        os.system('clear') 
+    elif os.name == "nt":
+        #Windows, Cigwyin, etc. (32/64-bit)
+        os.system('cls') 
     # os.system("cls") #Limpia la pantalla en la consola
     # os.system("clear") #Limpia pantalla consola MAC y Linux
     
